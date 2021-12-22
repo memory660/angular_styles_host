@@ -1,0 +1,32 @@
+// en .scss
+
+:host {
+  display: block;
+}
+:host.red {
+  background-color: red;
+}
+:host.green {
+  background-color: green;
+}
+
+// ou en .css
+
+/*
+
+:host {
+  // ...
+  &.list {
+    background: red;
+  }
+}
+
+:host {
+  // ...
+
+  &.grid {
+    background: green;
+  }
+}
+
+*/

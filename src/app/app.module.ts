@@ -13,6 +13,8 @@ import { Tile5Component } from './hostbinding/comp5/tile5/tile5.component';
 import { Comp5Component } from './hostbinding/comp5/comp5.component';
 import { Comp6Component } from './host-context/comp6/comp6.component';
 import { Tile6Component } from './host-context/tile6/tile6.component';
+import { Comp7Component } from './host-context2/comp7/comp7.component';
+import { Tile7Component } from './host-context2/tile7/tile7.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { Tile6Component } from './host-context/tile6/tile6.component';
     Comp5Component,
     Comp6Component,
     Tile6Component,
+    Comp7Component,
+    Tile7Component,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
