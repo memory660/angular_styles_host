@@ -15,6 +15,10 @@ import { Comp6Component } from './host-context/comp6/comp6.component';
 import { Tile6Component } from './host-context/tile6/tile6.component';
 import { Comp7Component } from './host-context2/comp7/comp7.component';
 import { Tile7Component } from './host-context2/tile7/tile7.component';
+import { VarCssComponent } from './var-css/var-css.component';
+import { Comp8Component } from './var-css/comp8/comp8.component';
+import { VarClassComponent } from './var-class/var-class.component';
+import { Comp9Component } from './var-class/comp9/comp9.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +35,10 @@ import { Tile7Component } from './host-context2/tile7/tile7.component';
     Tile6Component,
     Comp7Component,
     Tile7Component,
+    VarCssComponent,
+    Comp8Component,
+    VarClassComponent,
+    Comp9Component,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

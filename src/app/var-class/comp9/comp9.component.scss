@@ -1,0 +1,11 @@
+:host(.light) {
+  --color9: #aaa;
+}
+
+:host(.dark) {
+  --color9: #222;
+}
+
+.cc {
+  color: var(--color9);
+}
